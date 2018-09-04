@@ -1,0 +1,6 @@
+# Build the layout for small devices without image placeholders. 
+# Build the layout for medium devices without image placeholders. 
+# Build the layout for large devices without image placeholders. 
+# Measure the impact with and without those images. 
+# Try to crop the images and measure them. 
+# Execute final changes according to the end user. 
