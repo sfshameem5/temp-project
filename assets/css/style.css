@@ -1,0 +1,100 @@
+/**********
+Universal Styles
+***********/
+
+body {
+  background: red;
+}
+
+/**********
+Navbar Styles
+***********/
+
+nav {
+  text-align: center;
+  opacity: .7;
+  transition: 1s all;
+}
+
+nav:hover {
+  opacity: 1;
+  transition: 1s all;
+}
+
+/**********
+Main Box
+***********/
+#mainBox {
+  text-transform: uppercase;
+  border: 2px solid white;
+  color: white;
+  margin: 100px auto;
+  max-width: 90%;
+  width: 70%;
+  padding: 25px;
+  text-align: center; 
+}
+
+
+/**********
+Secondary Box
+***********/
+
+#secondaryBox {
+  text-transform: capitalize;
+  border: 2px solid white;
+  color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  width: 70%;
+  padding: 25px;
+  text-align: center;
+}
+
+/**********
+Footer
+***********/
+
+footer {
+  position: relative;
+  min-height: 50px;
+  text-align: center;
+}
+
+.fab {
+  color: white;
+  padding: 15px;
+  height: 50px;
+  width:  50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: .5s all;
+}
+
+.fab:hover {
+  background: red;
+  color: white;
+  transition: .5s all;
+  border-color: transparent;
+}
+
+footer {
+  text-align: center;
+  opacity: .7;
+  transition: 1s all;
+}
+
+footer:hover {
+  opacity: 1;
+  transition: 1s all;
+}
+
+footer a,
+footer a:hover,
+footer a:visited,
+footer a:active {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  margin: 10px;
+}
