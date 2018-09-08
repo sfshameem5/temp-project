@@ -2,10 +2,25 @@
 Universal Styles
 ***********/
 
-body {
-  background: red;
-  padding-bottom: 100px;
+html {
+
+  background-image: url("../img/cover.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+body {
+  height: 100%;
+  width: 100%;
+  background: grey;
+  opacity: .85;
+  /* background: url("../img/cover.jpeg"); */
+  
+  padding: 100px 0;
+}
+
+
 
 /**********
 Navbar Styles
@@ -55,6 +70,19 @@ Secondary Box -> Home
 /**********
 Events Box -> Events Page
 ***********/
+
+.card {
+  text-align: center;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+
+.medium-text {
+  font-size: 1rem;
+}
+
 
 /**********
 Footer -> Universal
